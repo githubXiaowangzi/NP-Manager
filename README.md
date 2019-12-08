@@ -33,3 +33,14 @@ Dex文件查看字符常量；
 
 感谢：
   首先向MT致敬，MT对很多细节的处理非常到位，对使用者非常用心（MT-非常NP），其次是向PanGolin致敬，UI框架参考了AX。另外，感谢TimScriptov将该App翻译成Russian的贡献。
+
+
+
+Android APK混淆方案——对dex文件直接混淆
+
+第一步：点击要混淆的apk，选择超级混淆3.0
+![Image text](https://img-blog.csdnimg.cn/20191208134308107.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3RpYW5zZXlpd2FuMDA4,size_16,color_FFFFFF,t_70)
+
+
+第二步：设置字典和混淆配置
+![Image text](https://img-blog.csdnimg.cn/20191208134534440.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3RpYW5zZXlpd2FuMDA4,size_16,color_FFFFFF,t_70)
