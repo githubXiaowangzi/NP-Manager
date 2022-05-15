@@ -1,20 +1,20 @@
 # NP-Manager
-#####名称：NP管理器
-#####作者：MT_吹牛儿出品
-#####最新版本: v3.0.38-beta
-#####资费：永久免费，无广告
-#####Email: 2863678687@qq.com
-#####QQ群交流: 832860549
-#####下载地址：[https://wwn.lanzouj.com/iX1WM04wjyhc](https://wwn.lanzouj.com/iX1WM04wjyhc)
-#####使用说明：
+##### 名称：NP管理器
+##### 作者：MT_吹牛儿出品
+##### 最新版本: v3.0.38-beta
+##### 资费：永久免费，无广告
+##### Email: 2863678687@qq.com
+##### QQ群交流: 832860549
+##### 下载地址：[https://wwn.lanzouj.com/iX1WM04wjyhc](https://wwn.lanzouj.com/iX1WM04wjyhc)
+##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
-#####感谢：
+##### 感谢：
 
 首先向MT致敬，MT对很多细节的处理非常到位，对使用者非常用心（MT-非常NP），其次是向PanGolin致敬，UI框架参考了AX。另外， 感谢一瑞为NP管理器设计图标； 感谢Momsg的长期帮助与监督； 感谢Modex提供的去签方法； 感谢mao在github上开源的apk-vm(nmmp)； 感谢milk(CodingGay)在github上开源的另一种控制流混淆(BlackObfuscator)； 感谢TimScriptov将该App翻译成Russian的贡献； 感谢94KONG对App修正Russian翻译的贡献； 感谢Burhan 2010将App翻译成Turkish的贡献； 感谢Infiltrovat将App翻译成Portuguese的贡献； 感谢MinhNhựtNguyễnHoàng将App翻译成Vietnamese的贡献； 感谢QUÂNANDROID修正Vietnamese翻译的贡献； 感谢zEiox将App翻译成Spanish的贡献。
 注意事项：
 
-#####常见闪退原因
+##### 常见闪退原因
 
 * Root的手机闪退概率高
 * Root了的手机不给root权限
@@ -22,7 +22,7 @@
 * 没有网络
 * 手机开了VPN或者代理
 
-#####功能简介：
+##### 功能简介：
 
 主要是对Apk、Dex、Jar、Smali、Pdf、视频和音频文件的简单应用。
 
@@ -78,15 +78,15 @@
 * 支持AXML伪加密和反伪加密。
 * Apk-Dex2C。
 
-##APK功能
-![apk功能](https://img-blog.csdnimg.cn/448e337d634940f99931996c59fd8cd0.jpeg#pic_center)
+##### APK功能
+![apk功能](https://img-blog.csdnimg.cn/9741a1842d8845ce8b73be30a6814fb2.jpeg#pic_center)
 
 
-##控制流混淆
-![控制流混淆](https://img-blog.csdnimg.cn/da822e0174da4db983c79cd964d656cc.jpeg#pic_center)
+##### 控制流混淆
+![控制流混淆](https://img-blog.csdnimg.cn/709a6dceebdc43dfa7b9108e8b9487df.jpeg#pic_center)
 
-####控制流混淆之前
-![在这里插入图片描述](https://img-blog.csdnimg.cn/a5e21b2605334aa5b3e2c8d37a74040f.jpeg#pic_center)
+###### 控制流混淆之前
+![在这里插入图片描述](https://img-blog.csdnimg.cn/a30b790014884705b830d02edbbca965.jpeg#pic_center)
 
-####控制流混淆之后
-![在这里插入图片描述](https://img-blog.csdnimg.cn/02ef608479ec464199f5acaf67157a28.jpeg#pic_center)
+###### 控制流混淆之后
+![在这里插入图片描述](https://img-blog.csdnimg.cn/1046f1048c7845c18cdc432783deae32.jpeg#pic_center)
