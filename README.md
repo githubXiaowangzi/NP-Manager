@@ -1,11 +1,11 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：MT_吹牛儿出品
-##### 最新版本: v3.0.42
+##### 最新版本: v3.0.43
 ##### 资费：永久免费，无广告
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 832860549
-##### 下载地址：[https://wwn.lanzouj.com/i907l08btyfi](https://wwn.lanzouj.com/i907l08btyfi)
+##### 下载地址：[https://wwn.lanzouj.com/iu5aA08uiq8b](https://wwn.lanzouj.com/iu5aA08uiq8b)
 ##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
@@ -75,7 +75,7 @@
 * 控制流-防字符串一键解密；
 * 支持Apks和Xapk文件转Apk文件；
 * 支持Arsc文件编辑；
-* 支持AXML伪加密和反伪加密。
+* 支持Apk伪加密和反伪加密。
 * Apk-Dex2C。
 
 ##### APK功能
