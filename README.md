@@ -1,11 +1,11 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：MT_吹牛儿出品
-##### 最新版本: v3.0.49
+##### 最新版本: v3.0.51
 ##### 资费：永久免费，无广告
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 832860549
-##### 下载地址：[https://wwn.lanzouj.com/iPCBt0al926j](https://wwn.lanzouj.com/iPCBt0al926j)
+##### 下载地址：[https://wwn.lanzouj.com/iQM6z0beo1sj](https://wwn.lanzouj.com/iQM6z0beo1sj)
 ##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
@@ -77,7 +77,8 @@
 * 支持Arsc文件编辑；
 * 支持Apk伪加密和反伪加密；
 * Apk-Dex2C；
-* 屏幕取色器。
+* 屏幕取色器；
+* 屏幕标尺。
 
 ##### APK功能
 ![apk功能](https://img-blog.csdnimg.cn/9741a1842d8845ce8b73be30a6814fb2.jpeg#pic_center)
