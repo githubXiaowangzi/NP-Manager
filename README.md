@@ -1,11 +1,11 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：MT_吹牛儿出品
-##### 最新版本: v3.0.56
+##### 最新版本: v3.0.57
 ##### 资费：永久免费，无广告
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 832860549
-##### 下载地址：[https://wwn.lanzoue.com/iyoYI0efrphe](https://wwn.lanzoue.com/iyoYI0efrphe)
+##### 下载地址：[https://wwk.lanzoue.com/ioGnZ0euf38b](https://wwk.lanzoue.com/ioGnZ0euf38b)
 ##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
