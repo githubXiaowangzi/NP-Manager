@@ -4,7 +4,7 @@
 ##### 最新版本: v3.0.63
 ##### 资费：永久免费
 ##### Email: 2863678687@qq.com
-##### QQ群交流: 832860549
+##### QQ群交流: 1058551673
 ##### 下载地址：[https://wwyr.lanzoue.com/iAu400msuq5c](https://wwyr.lanzoue.com/iAu400msuq5c)
 ##### 使用说明：
 
