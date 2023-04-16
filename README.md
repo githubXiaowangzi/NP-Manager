@@ -2,7 +2,6 @@
 ##### 名称：NP管理器
 ##### 作者：MT_吹牛儿出品
 ##### 最新版本: v3.0.65
-##### 资费：永久免费
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
 ##### 下载地址：[https://wwyr.lanzoue.com/i5Ios0sa9d4f](https://wwyr.lanzoue.com/i5Ios0sa9d4f)
