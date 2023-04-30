@@ -1,16 +1,38 @@
 # NP-Manager
 ##### 名称：NP管理器
-##### 作者：MT_吹牛儿出品
-##### 最新版本: v3.0.65
+##### 作者：吹牛儿
+##### 最新版本: v3.0.66
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
-##### 下载地址：[https://wwyr.lanzoue.com/i5Ios0sa9d4f](https://wwyr.lanzoue.com/i5Ios0sa9d4f)
+##### 下载地址：[https://wwyr.lanzoue.com/iE79c0ubv2ej](https://wwyr.lanzoue.com/iE79c0ubv2ej)
 ##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
 ##### 感谢：
+首先向MT致敬，MT对很多细节的处理非常到位，对使用者非常用心（MT-非常NP），其次是向PanGolin致敬，UI框架参考了AX。另外，
+感谢一瑞为NP管理器设计图标；
+感谢Momsg的长期帮助与监督；
+感谢Modex提供的去签方法；
+感谢mao在github上开源的nmmp；
+感谢milk(CodingGay)在github上开源的另一种控制流混淆(BlackObfuscator)；
+感谢Rosemoe在github上开源的sora-editor；
+感谢LSPosed在github上开源的LSPatch；
+感谢luoyesiqiu在github上开源的dpt-shell；
+感谢TimScriptov将该App翻译成Russian的贡献；
+感谢94KONG对App修正Russian翻译的贡献；
+感谢Burhan 2010将App翻译成Turkish的贡献；
+感谢Infiltrovat将App翻译成Portuguese的贡献；
+感谢MinhNhựtNguyễnHoàng将App翻译成Vietnamese的贡献；
+感谢QUÂNANDROID修正Vietnamese翻译的贡献；
+感谢zEiox将App翻译成Spanish的贡献；
+感谢Hamad Khalifa将App翻译成Arabic的贡献;
+感谢Ahmad Fardin (أحمد فردین)将App翻译成Persian的贡献；
+感谢Saif AL-iraqi修正Arabic翻译的贡献；
+感谢SharkFall提供的SFSignKiller去签方法；
+感谢难忘的旋律(nwdxlgzs)提供的v3签名读取方案；
+感谢Eirv提供的Eirv去签方法；
 
-首先向MT致敬，MT对很多细节的处理非常到位，对使用者非常用心（MT-非常NP），其次是向PanGolin致敬，UI框架参考了AX。另外， 感谢一瑞为NP管理器设计图标； 感谢Momsg的长期帮助与监督； 感谢Modex提供的去签方法； 感谢mao在github上开源的apk-vm(nmmp)； 感谢milk(CodingGay)在github上开源的另一种控制流混淆(BlackObfuscator)； 感谢TimScriptov将该App翻译成Russian的贡献； 感谢94KONG对App修正Russian翻译的贡献； 感谢Burhan 2010将App翻译成Turkish的贡献； 感谢Infiltrovat将App翻译成Portuguese的贡献； 感谢MinhNhựtNguyễnHoàng将App翻译成Vietnamese的贡献； 感谢QUÂNANDROID修正Vietnamese翻译的贡献； 感谢zEiox将App翻译成Spanish的贡献。
+
 注意事项：
 
 ##### 常见闪退原因
@@ -78,7 +100,9 @@
 * Apk-Dex2C；
 * 屏幕取色器；
 * 屏幕标尺；
-* PDF转Word/PPT/Excel/长图，Word转PDF/长图等。
+* PDF转Word/PPT/Excel/长图，Word转PDF/长图等；
+* Apk函数抽取壳；
+* Apk-arsc翻译。
 
 ##### APK功能
 ![apk功能](https://img-blog.csdnimg.cn/6e0ac9825b8f429a8d8a71d857773351.jpeg#pic_center)
