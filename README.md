@@ -1,10 +1,10 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：吹牛儿
-##### 最新版本: v3.0.70
+##### 最新版本: v3.0.71
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
-##### 下载地址：[https://wwyr.lanzoue.com/i0nwI0zhmdjc](https://wwyr.lanzoue.com/i0nwI0zhmdjc)
+##### 下载地址：[https://wwyr.lanzoue.com/ilb0710427te](https://wwyr.lanzoue.com/ilb0710427te)
 ##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
@@ -102,7 +102,8 @@
 * 屏幕标尺；
 * PDF转Word/PPT/Excel/长图，Word转PDF/长图等；
 * Apk函数抽取壳；
-* Apk-arsc翻译。
+* Apk-arsc翻译；
+* Apk对比，AndroidManifest.xml对比。
 
 ##### APK功能
 ![apk功能](https://img-blog.csdnimg.cn/6e0ac9825b8f429a8d8a71d857773351.jpeg#pic_center)
