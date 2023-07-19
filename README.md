@@ -1,10 +1,10 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：吹牛儿
-##### 最新版本: v3.0.73
+##### 最新版本: v3.0.74
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
-##### 下载地址：[https://wwyr.lanzoue.com/iVqAZ11sa92h](https://wwyr.lanzoue.com/iVqAZ11sa92h)
+##### 下载地址：[https://wwyr.lanzoue.com/iprm212wsdtg](https://wwyr.lanzoue.com/iprm212wsdtg)
 ##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
@@ -30,7 +30,7 @@
 感谢Saif AL-iraqi修正Arabic翻译的贡献；
 感谢SharkFall提供的SFSignKiller去签方法；
 感谢难忘的旋律(nwdxlgzs)提供的v3签名读取方案；
-感谢Eirv提供的Eirv去签方法；
+感谢Eirv提供的Eirv、FancyBypass去签方法；
 
 
 注意事项：
