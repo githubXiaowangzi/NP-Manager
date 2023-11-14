@@ -1,10 +1,10 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：吹牛儿
-##### 最新版本: v3.0.78
+##### 最新版本: v3.0.80
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
-##### 下载地址：[http://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=ff95ba6327d420eca372a41fb7e9e24d](http://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=ff95ba6327d420eca372a41fb7e9e24d)
+##### 下载地址：[https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=02c43ee793207289d5360bb2f71008a9](https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=02c43ee793207289d5360bb2f71008a9)
 ##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
@@ -31,7 +31,9 @@
 感谢SharkFall提供的SFSignKiller去签方法；
 感谢难忘的旋律(nwdxlgzs)提供的v3签名读取方案；
 感谢Eirv提供的Eirv、FancyBypass去签方法；
-
+感谢Hacen HADDU将App翻译成French的贡献；
+感谢平凡を人生对本App图标进一步修改完善的贡献；
+感谢فردین صلاح الدین对APP波斯语翻译的校正以及smali语法波斯语翻译的贡献；
 
 注意事项：
 
@@ -41,7 +43,6 @@
 * Root了的手机不给root权限
 * 有xp环境的容易闪退
 * 没有网络
-* 手机开了VPN或者代理
 
 ##### 功能简介：
 
@@ -103,8 +104,8 @@
 * PDF转Word/PPT/Excel/长图，Word转PDF/长图等；
 * Apk函数抽取壳；
 * Apk-arsc翻译；
-* Apk对比，AndroidManifest.xml对比。
-
+* Apk对比，AndroidManifest.xml对比；
+* 一键随机签名Apk。
 ##### APK功能
 ![apk功能](https://img-blog.csdnimg.cn/6e0ac9825b8f429a8d8a71d857773351.jpeg#pic_center)
 
