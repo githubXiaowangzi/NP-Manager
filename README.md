@@ -12,7 +12,7 @@
 首先向MT致敬，MT对很多细节的处理非常到位，对使用者非常用心（MT-非常NP），其次是向PanGolin致敬，UI框架参考了AX。另外，
 感谢一瑞为NP管理器设计图标；
 感谢Momsg的长期帮助与监督；
-感谢Modex提供的去签方法；
+感谢负一提供的Modex3.0；
 感谢mao在github上开源的nmmp；
 感谢milk(CodingGay)在github上开源的另一种控制流混淆(BlackObfuscator)；
 感谢Rosemoe在github上开源的sora-editor；
@@ -28,9 +28,9 @@
 感谢Hamad Khalifa将App翻译成Arabic的贡献;
 感谢Ahmad Fardin (أحمد فردین)将App翻译成Persian的贡献；
 感谢Saif AL-iraqi修正Arabic翻译的贡献；
-感谢SharkFall提供的SFSignKiller去签方法；
+感谢SharkFall提供的SFSignKiller；
 感谢难忘的旋律(nwdxlgzs)提供的v3签名读取方案；
-感谢Eirv提供的Eirv、FancyBypass去签方法；
+感谢Eirv提供的EirvSignKiller、FancyBypass；
 感谢Hacen HADDU将App翻译成French的贡献；
 感谢平凡を人生对本App图标进一步修改完善的贡献；
 感谢فردین صلاح الدین对APP波斯语翻译的校正以及smali语法波斯语翻译的贡献；
@@ -51,7 +51,7 @@
 * Dex、Jar、Smali文件的相互转换；
 * Dex文件合并、分割；
 * Apk、dex、jar混淆和字符串加密；
-* Apk签名、共存、去除签名校验、对话框取消、去除VPN/代理检测；
+* Apk签名、共存；
 * Res资源混淆(支持自定义字典)；
 * Pdf合并、加密、分割、提取、解除加密限制、删页；
 * 视频转码、剪切、提取音频/视频流、自定义音频/视频操作；
@@ -63,7 +63,7 @@
 * Smali文件转Java；
 * 一键添加Xposed检测，一键添加弹窗、对话框；
 * axml反编译/回编译、arsc文件查看字符常量；
-* 一键LOG注入，一键去除所有弹窗(Toast)；
+* 一键LOG注入；
 * 一键注入字符串解密LOG，Dex文件换包名；
 * 多种Apk字符串加密方案(推荐控制流混淆中的字符串加密)；
 * 一键添加禁止截屏，一键添加Apk崩溃日志记录；
@@ -76,7 +76,6 @@
 * 一键提取Dex混淆字典，加密Dex中的资源ID；
 * Apk对齐优化；
 * Dex批量修复；
-* 超强版去除签名校验；
 * assets和res资源加密保护；
 * Dex文件对比；
 * 文本文件对比；
