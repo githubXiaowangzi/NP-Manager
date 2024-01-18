@@ -1,10 +1,10 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：吹牛儿
-##### 最新版本: v3.0.88
+##### 最新版本: v3.0.89
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
-##### 下载地址：[https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=55591dc820ec026c086423d35522c152](https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=55591dc820ec026c086423d35522c152)
+##### 下载地址：[https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=6ca20560d6cea310b19ff245b6af7e28](https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=6ca20560d6cea310b19ff245b6af7e28)
 ##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
