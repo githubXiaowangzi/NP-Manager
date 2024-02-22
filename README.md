@@ -1,10 +1,10 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：吹牛儿
-##### 最新版本: v3.0.92
+##### 最新版本: v3.0.93
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
-##### 下载地址：[https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=7f3b6661ff79a61b9c9d0ed3cad0bf25](https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=7f3b6661ff79a61b9c9d0ed3cad0bf25)
+##### 下载地址：[https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=80e4231345acae2fe401ee81a9380934](https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=80e4231345acae2fe401ee81a9380934)
 ##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
@@ -63,8 +63,8 @@
 * Smali文件转Java；
 * 一键添加Xposed检测，一键添加弹窗、对话框；
 * axml反编译/回编译、arsc文件查看字符常量；
-* 一键LOG注入；
-* 一键注入字符串解密LOG，Dex文件换包名；
+* 一键添加LOG；
+* 一键添加字符串解密LOG，Dex文件换包名；
 * 多种Apk字符串加密方案(推荐控制流混淆中的字符串加密)；
 * 一键添加禁止截屏，一键添加Apk崩溃日志记录；
 * XML文本代码格式化；
