@@ -1,10 +1,10 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：吹牛儿
-##### 最新版本: v3.0.93
+##### 最新版本: v3.0.94
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
-##### 下载地址：[https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=80e4231345acae2fe401ee81a9380934](https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=80e4231345acae2fe401ee81a9380934)
+##### 下载地址：[https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=14802035f0393dbaa6e4a152e95d1baa](https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=14802035f0393dbaa6e4a152e95d1baa)
 ##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
@@ -40,9 +40,7 @@
 ##### 常见闪退原因
 
 * Root的手机闪退概率高
-* Root了的手机不给root权限
 * 有xp环境的容易闪退
-* 没有网络
 
 ##### 功能简介：
 
@@ -104,7 +102,11 @@
 * Apk函数抽取壳；
 * Apk-arsc翻译；
 * Apk对比，AndroidManifest.xml对比；
-* 一键随机签名Apk。
+* 一键随机签名Apk；
+* 字体预览器；
+* 音乐播放器；
+* Apk功能--加密资源文件内容；
+* Hex编辑器。
 ##### APK功能
 ![apk功能](https://img-blog.csdnimg.cn/6e0ac9825b8f429a8d8a71d857773351.jpeg#pic_center)
 
