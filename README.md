@@ -1,10 +1,10 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：吹牛儿
-##### 最新版本: v3.1.6
+##### 最新版本: v3.1.7
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
-##### 下载地址：[https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=69b0736e5c8558ba9bd13971cc40458d](https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=69b0736e5c8558ba9bd13971cc40458d)
+##### 下载地址：[https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=b0f28bb9415229203cfe5591a20ec6b7](https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=b0f28bb9415229203cfe5591a20ec6b7)
 ##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
@@ -111,7 +111,8 @@
 * 数据复用优化；
 * Activity记录；
 * 支持使用Shizuku安装apk、apks文件；
-* 支持使用Shizuku访问Android/data目录。
+* 支持使用Shizuku访问Android/data目录；
+* 文件夹对比。
 
 ##### APK功能
 ![apk功能](https://img-blog.csdnimg.cn/6e0ac9825b8f429a8d8a71d857773351.jpeg#pic_center)
