@@ -4,7 +4,7 @@
 ##### 最新版本: v3.1.9
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
-##### 下载地址：[https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=04ce2c5354b74e997bbf1a728e55bd00](https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=04ce2c5354b74e997bbf1a728e55bd00)
+##### 下载地址：[http://normalplayer.top:8880/member/view/fileDownload/NP.apk](http://normalplayer.top:8880/member/view/fileDownload/NP.apk)
 ##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
