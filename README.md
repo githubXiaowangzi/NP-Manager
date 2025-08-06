@@ -1,10 +1,11 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：吹牛儿
-##### 最新版本: v3.1.25
+##### 最新版本: v3.1.26
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
-##### 下载地址：[http://normalplayer.top:8991/member/view/fileDownload/NP.apk](http://normalplayer.top:8991/member/view/fileDownload/NP.apk)
+##### 下载地址1：[http://normalplayer.top:8991/member/view/fileDownload/NP.apk](http://normalplayer.top:8991/member/view/fileDownload/NP.apk)
+##### 下载地址2：[http://out.normalplayer.top:8991/member/view/fileDownload/NP.apk](http://out.normalplayer.top:8991/member/view/fileDownload/NP.apk)
 ##### 使用说明：
 
 该APP的想法是和大家一起交流学习技术(该App自身无技术含量，纯属娱乐)，目前版本有很多bug，后面再陆续完善，增加一些可能有意思的小功能。
@@ -117,7 +118,8 @@
 * 文本文件批量合并；
 * 终端模拟器；
 * 支持添加网络存储服务--包括 FTP、SFTP、SMB、WebDAV （添加按钮位于左侧导航栏右上角)；
-* Apk-XML翻译模式。
+* Apk-XML翻译模式；
+* 支持ROOT授权访问文件系统。
 
 ##### APK功能
 ![apk功能](https://img-blog.csdnimg.cn/6e0ac9825b8f429a8d8a71d857773351.jpeg#pic_center)
