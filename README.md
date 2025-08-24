@@ -1,7 +1,7 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：吹牛儿
-##### 最新版本: v3.1.30
+##### 最新版本: v3.1.31
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
 ##### 下载地址1：[http://normalplayer.top:8991/member/view/fileDownload/NP.apk](http://normalplayer.top:8991/member/view/fileDownload/NP.apk)
@@ -32,6 +32,7 @@
 感谢SharkFall提供的SFSignKiller；
 感谢难忘的旋律(nwdxlgzs)提供的v3签名读取方案；
 感谢Eirv提供的EirvSignKiller、FancyBypass；
+感谢LingXing提供的SRPatch；   
 感谢Hacen HADDU将App翻译成French的贡献；
 感谢平凡を人生对本App图标进一步修改完善的贡献；
 感谢فردین صلاح الدین对APP波斯语翻译的校正以及smali语法波斯语翻译的贡献；
