@@ -455,7 +455,7 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
                     <div class="step-content">
                         <p><strong>下载并安装 RikkaHub</strong></p>
                         <p>访问 <a href="https://rikka-ai.com/download" target="_blank">rikka-ai.com/download</a> 下载 APK 并安装到设备上；也可使用下面的便捷下载直链（arm64-v8a，无需去官网）。</p>
-                        <p><a href="http://normalplayer.top:8991/member/view/fileDownload/rikkahub-2.5.6-arm64-v8a.apk" download style="display:inline-block;padding:8px 18px;border:1px solid #4a90d9;border-radius:6px;color:#4a90d9;text-decoration:none;font-weight:bold;">⬇ 便捷下载 RikkaHub 2.5.6（arm64-v8a）</a></p>
+                        <p><a href="http://normalplayer.top:8991/member/view/fileDownload/RikkaHub_3.0.0.apk" download style="display:inline-block;padding:8px 18px;border:1px solid #4a90d9;border-radius:6px;color:#4a90d9;text-decoration:none;font-weight:bold;">⬇ 便捷下载 RikkaHub 3.0.0（arm64-v8a）</a></p>
                     </div>
                 </div>
 
@@ -607,13 +607,13 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
                 </div>
                 <div class="tool-item">
                     <div class="tool-name">np_apk_list</div>
-                    <div class="tool-desc">列出 APK 里的类、文件和资源；工作区或会话失效时提示重新打开，精简输出也保留完整错误，读取基线时提醒会话修改未包含。</div>
+                    <div class="tool-desc">列出 APK 里的类、文件和资源；工作区或会话失效时提示重新打开，精简输出也保留完整错误，读取基线时提醒会话修改未包含。资源名被混淆时按 0x 开头的资源 id 前缀（如 0x7f08）查，零结果会给出替代查法。</div>
                     <span class="tool-tag">只读</span>
                         <span class="tool-birth">2026-09-27</span>
                 </div>
                 <div class="tool-item">
                     <div class="tool-name">np_apk_search</div>
-                    <div class="tool-desc">搜索 APK 里的代码、资源和 SO 符号；大包首次预热与索引错峰，内存不足时提供失败阶段和重试建议。</div>
+                    <div class="tool-desc">搜索 APK 里的代码、资源和 SO 符号；大包首次预热与索引错峰，内存不足时提供失败阶段和重试建议。smali 正则支持 ^/$ 行首行尾锚定。</div>
                     <span class="tool-tag">只读</span>
                         <span class="tool-birth">2026-09-27</span>
                 </div>
@@ -637,13 +637,13 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
                 </div>
                 <div class="tool-item">
                     <div class="tool-name">np_apk_read_resource</div>
-                    <div class="tool-desc">读取资源当前值和引用链；支持单条或批量读取，默认紧凑档，存在编辑会话时标明基线风险，参数填错会指出具体位置。</div>
+                    <div class="tool-desc">读取资源当前值和引用链；支持单条或批量读取，默认紧凑档，存在编辑会话时标明基线风险，参数填错会指出具体位置。图标等二进制文件资源直接返回其在包内的文件路径（rawValueFallback 标记），可直接拿去抽取；variant 传 * 一次拿齐全部语言/密度变体的值。</div>
                     <span class="tool-tag">只读</span>
                         <span class="tool-birth">2026-09-27</span>
                 </div>
                 <div class="tool-item">
                     <div class="tool-name">np_apk_read_resource_tree</div>
-                    <div class="tool-desc">浏览资源类型和语言配置，按类型筛选保持折叠；展开后复制准确配置路径，重复的基线风险说明会精简。</div>
+                    <div class="tool-desc">浏览资源类型和语言配置，按类型筛选保持折叠；展开后复制准确配置路径，重复的基线风险说明会精简。窗口读取的 entryOffset 是匹配条目内的跳过数，越界会明确报错并给出按 id 直取的替代路径。</div>
                     <span class="tool-tag">只读</span>
                         <span class="tool-birth">2026-09-27</span>
                 </div>
@@ -754,7 +754,7 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
                 </div>
                 <div class="tool-item">
                     <div class="tool-name">np_apk_dex_xref</div>
-                    <div class="tool-desc">查“谁在用这个类或方法”，删改代码前先看影响范围。</div>
+                    <div class="tool-desc">查“谁在用这个类或方法”，删改代码前先看影响范围；PUA 字符等 Unicode 混淆类名同样支持。</div>
                     <span class="tool-tag">只读</span>
                         <span class="tool-birth">2026-09-29</span>
                 </div>
@@ -842,7 +842,7 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
                 </div>
                 <div class="tool-item">
                     <div class="tool-name">np_apk_native_patch_instructions</div>
-                    <div class="tool-desc">修改 SO 中的汇编指令。自动检查地址、完整指令边界和原始字节，保存后核对结果；先开启编辑会话。</div>
+                    <div class="tool-desc">修改 ARM、Thumb、ARM64、x86 和 x64 的 SO 汇编指令，可指定 CPU 扩展；与界面共用校验，先开启编辑会话。</div>
                     <span class="tool-tag">写入</span>
                         <span class="tool-birth">2026-09-27</span>
                 </div>
