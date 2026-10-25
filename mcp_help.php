@@ -607,7 +607,7 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
                 </div>
                 <div class="tool-item">
                     <div class="tool-name">np_apk_list</div>
-                    <div class="tool-desc">列出 APK 里的类、文件和资源；工作区或会话失效时提示重新打开，精简输出也保留完整错误，读取基线时提醒会话修改未包含。资源名被混淆时按 0x 开头的资源 id 前缀（如 0x7f08）查，零结果会给出替代查法。</div>
+                    <div class="tool-desc">列出 APK 里的类、文件和资源；工作区或会话失效时提示重新打开，精简输出也保留完整错误，读取基线时提醒会话修改未包含。资源名被混淆时按 0x 开头的资源 id 前缀（如 0x7f08）查，零结果会给出替代查法。看包内文件时可传 fields 只要 name/size 等少数字段，分页响应能小一半以上。新增“文本条目”视图：按文件内容筛出真正能当文本读的条目并给出探测编码（UTF-8 优先，其次 GBK/GB18030），res 下的二进制 XML、资源表和 dex 不会混进来，挑可编辑文件不必逐个试读。</div>
                     <span class="tool-tag">只读</span>
                         <span class="tool-birth">2026-09-27</span>
                 </div>
@@ -631,7 +631,7 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
                 </div>
                 <div class="tool-item">
                     <div class="tool-name">np_apk_read_text</div>
-                    <div class="tool-desc">读取 APK 里的代码、布局和文本，编辑前先读它；默认紧凑档（教育说明折叠为短标记，传 compact=false 取回完整解释），基线读取会提示未包含会话修改。</div>
+                    <div class="tool-desc">读取 APK 里的代码、布局和文本，编辑前先读它；默认紧凑档（教育说明折叠为短标记，传 compact=false 取回完整解释），基线读取会提示未包含会话修改。GBK 等非 UTF-8 文本文件传 encoding 即可正确显示（编码探测 UTF-8 优先，非 UTF-8 才按 GBK/GB18030 报，探测不出仍按 UTF-8 展示并提示疑似乱码）；这类文件不能按文本改，需用按字节写回。响应同时给文本域和字节域两个版本号，避免传错工具。</div>
                     <span class="tool-tag">只读</span>
                         <span class="tool-birth">2026-09-27</span>
                 </div>
@@ -643,7 +643,7 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
                 </div>
                 <div class="tool-item">
                     <div class="tool-name">np_apk_read_resource_tree</div>
-                    <div class="tool-desc">浏览资源类型和语言配置，按类型筛选保持折叠；展开后复制准确配置路径，重复的基线风险说明会精简。窗口读取的 entryOffset 是匹配条目内的跳过数，越界会明确报错并给出按 id 直取的替代路径。</div>
+                    <div class="tool-desc">浏览资源类型和语言配置，按类型筛选保持折叠；展开后复制准确配置路径，重复的基线风险说明会精简。展开视图下单个类型默认最多列 20 个配置节点（多语言/多密度包不再撑满响应），超出部分在类型节点上给出总数和剩余入口，传 configLimit 可调整或设 0 取全量。窗口读取的 entryOffset 是匹配条目内的跳过数，越界会明确报错并给出按 id 直取的替代路径。</div>
                     <span class="tool-tag">只读</span>
                         <span class="tool-birth">2026-09-27</span>
                 </div>
@@ -713,13 +713,19 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
                 </div>
                 <div class="tool-item">
                     <div class="tool-name">np_apk_patch_bytes</div>
-                    <div class="tool-desc">插入、删除或替换 APK 内文件字节，可先预览；写入后核对完整内容，失败时恢复，回滚失败会明确提示。</div>
+                    <div class="tool-desc">插入、删除或替换 APK 内文件字节，可先预览；写入后核对完整内容，失败时恢复，回滚失败会明确提示。版本号要用字节域（read_bytes 或 read_text 的 byteTargetVersion），传文本域会明确报错并给出正确值。</div>
                     <span class="tool-tag destructive">写入</span>
                         <span class="tool-birth">2026-09-27</span>
                 </div>
                 <div class="tool-item">
+                    <div class="tool-name">np_apk_write_entry_bytes</div>
+                    <div class="tool-desc">一次调用直接把整个文件内容写进 APK：给十六进制或 base64 字节即可，GBK 等非 UTF-8 文本、小二进制文件都不用再落临时文件；写入有事务校验，失败会回滚。</div>
+                    <span class="tool-tag destructive">写入</span>
+                        <span class="tool-birth">2026-10-23</span>
+                </div>
+                <div class="tool-item">
                     <div class="tool-name">np_apk_add_files</div>
-                    <div class="tool-desc">往 APK 里添加新文件。</div>
+                    <div class="tool-desc">往 APK 里添加新文件；替换已有文件时会回显被覆盖内容的旧大小、旧版本和旧 CRC32，便于事后审计。</div>
                     <span class="tool-tag destructive">写入</span>
                         <span class="tool-birth">2026-09-27</span>
                 </div>
@@ -883,7 +889,7 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
                 </div>
                 <div class="tool-item">
                     <div class="tool-name">np_apk_build</div>
-                    <div class="tool-desc">把会话修改打包并签名，显示实际补丁路径或重编码原因；可单次跳过自动清理，清理时保护刚生成的 APK。</div>
+                    <div class="tool-desc">把会话修改打包并签名，显示实际补丁路径或重编码原因；可单次跳过自动清理，清理时保护刚生成的 APK。传 outputPath 可直接把产物放进目标目录，省一次复制；构建内置全部门禁，成功产出即权威结论，不需要再跑一次编辑检查。历史失败只统计真实写入失败，参数填错或编码/版本守卫拦截不计入。</div>
                     <span class="tool-tag destructive">写入</span>
                         <span class="tool-birth">2026-09-27</span>
                 </div>
@@ -1078,6 +1084,12 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
                         <span class="tool-birth">2026-09-27</span>
                 </div>
                 <div class="tool-item">
+                    <div class="tool-name">np_file_list_archive</div>
+                    <div class="tool-desc">不解压也能看压缩包里有哪些文件：按路径前缀、通配符和文件/目录筛选，结果分页返回；加密包先传密码。</div>
+                    <span class="tool-tag">只读</span>
+                        <span class="tool-birth">2026-10-23</span>
+                </div>
+                <div class="tool-item">
                     <div class="tool-name">np_file_edit_zip</div>
                     <div class="tool-desc">直接改 zip 包：加文件、删文件、换文件，不用先解压再打包。</div>
                     <span class="tool-tag destructive">写入</span>
@@ -1162,7 +1174,7 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
                 </div>
                 <div class="tool-item">
                     <div class="tool-name">np_get_session_stats</div>
-                    <div class="tool-desc">统计调用次数、耗时和最慢调用，按阶段复盘；工作区台账可跨重启查询，后台任务耗时单列，调用时间跨度与累计耗时分别展示。</div>
+                    <div class="tool-desc">统计调用次数、耗时和最慢调用，按阶段复盘；工作区台账可跨重启查询，后台任务耗时单列，调用时间跨度与累计耗时分别展示。没有工作区归属的本地文件调用会单独披露；按时间窗查询时不再给出容易误读的覆盖率，改为并列“窗口内归因次数”和“进程级本池次数”两个绝对值（本地池没有逐调用时间戳），窗口内本地调用的口径说明在精简档下也会保留。</div>
                     <span class="tool-tag">只读</span>
                         <span class="tool-birth">2026-10-08</span>
                 </div>
