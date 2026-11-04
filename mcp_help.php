@@ -455,7 +455,7 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
                     <div class="step-content">
                         <p><strong>下载并安装 RikkaHub</strong></p>
                         <p>访问 <a href="https://rikka-ai.com/download" target="_blank">rikka-ai.com/download</a> 下载 APK 并安装到设备上；也可使用下面的便捷下载直链（arm64-v8a，无需去官网）。</p>
-                        <p><a href="http://normalplayer.top:8991/member/view/fileDownload/RikkaHub_3.0.0.apk" download style="display:inline-block;padding:8px 18px;border:1px solid #4a90d9;border-radius:6px;color:#4a90d9;text-decoration:none;font-weight:bold;">⬇ 便捷下载 RikkaHub 3.0.0（arm64-v8a）</a></p>
+                        <p><a href="http://normalplayer.top:8991/member/view/fileDownload/RikkaHub_3.1.1.apk" download style="display:inline-block;padding:8px 18px;border:1px solid #4a90d9;border-radius:6px;color:#4a90d9;text-decoration:none;font-weight:bold;">⬇ 便捷下载 RikkaHub 3.1.1（arm64-v8a）</a></p>
                     </div>
                 </div>
 
