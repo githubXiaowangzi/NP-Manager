@@ -1,7 +1,7 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：吹牛儿
-##### 最新版本: v3.2.9
+##### 最新版本: v3.2.10
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
 ##### 下载地址1：[http://normalplayer.top:8991/member/view/fileDownload/NP.apk](http://normalplayer.top:8991/member/view/fileDownload/NP.apk)
@@ -131,7 +131,10 @@
 * 布局查看器；
 * SO 文件对比；
 * 十六进制对比；
-* 局域网传输文件。
+* 局域网传输文件；
+* 点九图片编辑器；
+* 应用管理：支持批量冻结、禁用、启用、卸载，提取安装包（含split）；
+* 应用详情：查看并管理权限、组件、AppOps，支持应用数据操作与备份恢复。
 
 ##### APK功能
 ![apk功能](https://img-blog.csdnimg.cn/6e0ac9825b8f429a8d8a71d857773351.jpeg#pic_center)
