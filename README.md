@@ -1,7 +1,7 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：吹牛儿
-##### 最新版本: v3.2.13
+##### 最新版本: v3.2.14
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
 ##### 下载地址1：[http://normalplayer.top:8991/member/view/fileDownload/NP.apk](http://normalplayer.top:8991/member/view/fileDownload/NP.apk)
@@ -53,7 +53,7 @@
 * Apk、dex、jar混淆和字符串加密；
 * Apk签名、共存；
 * Res资源混淆(支持自定义字典)；
-* Pdf合并、加密、分割、提取、解除加密限制、删页；
+* Pdf预览合并、加密、分割、提取、解除加密限制、删页；
 * 视频转码、剪切、提取音频/视频流、自定义音频/视频操作；
 * 文件夹转码GBKUTF-8；
 * So文件查看字符常量；
@@ -136,7 +136,9 @@
 * 应用管理：支持批量冻结、禁用、启用、卸载，提取安装包（含split）；
 * 应用详情：查看并管理权限、组件、AppOps，支持应用数据操作与备份恢复；
 * 流媒体播放及内置视频播放器（支持投屏）；
-* Apk功能 - Dex虚拟化。
+* Apk功能 - Dex虚拟化；
+* 进程管理；
+* OFD预览器。
 
 ##### APK功能
 ![apk功能](https://img-blog.csdnimg.cn/6e0ac9825b8f429a8d8a71d857773351.jpeg#pic_center)
