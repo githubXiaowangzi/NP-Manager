@@ -1,7 +1,7 @@
 # NP-Manager
 ##### 名称：NP管理器
 ##### 作者：吹牛儿
-##### 最新版本: v3.2.14
+##### 最新版本: v3.2.15
 ##### Email: 2863678687@qq.com
 ##### QQ群交流: 1058551673
 ##### 下载地址1：[http://normalplayer.top:8991/member/view/fileDownload/NP.apk](http://normalplayer.top:8991/member/view/fileDownload/NP.apk)
@@ -138,7 +138,8 @@
 * 流媒体播放及内置视频播放器（支持投屏）；
 * Apk功能 - Dex虚拟化；
 * 进程管理；
-* OFD预览器。
+* OFD预览器；
+* PPT、Excel、Word 文件预览。
 
 ##### APK功能
 ![apk功能](https://img-blog.csdnimg.cn/6e0ac9825b8f429a8d8a71d857773351.jpeg#pic_center)
